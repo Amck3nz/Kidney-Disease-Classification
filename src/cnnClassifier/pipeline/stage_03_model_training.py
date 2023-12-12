@@ -19,6 +19,7 @@ class ModelTrainingPipeline:
         training.train()
 
 
+# Main function for DVC
 if __name__ == '__main__':
     try:
         logger.info(f"********************")

@@ -16,6 +16,7 @@ class DataIngestionTrainingPipeline:
         data_ingestion.extract_zip_file()
 
 
+# Main function for DVC
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
