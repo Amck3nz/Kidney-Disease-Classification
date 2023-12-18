@@ -9,7 +9,7 @@ Executing this file will create the below folders
 # Logging String   
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')   # Current time stamp + log message
 
-project_name = 'cnnClassifier'      # Template name, change as needed
+project_name = 'Temp'      # Template name, change as needed
 
 # list of files/folder
 list_of_files = [
@@ -27,7 +27,7 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb",
+    "RnD/test.ipynb",
     "templates/index.html",                              # Because going to use flask endpoint
     "test.py"
 
